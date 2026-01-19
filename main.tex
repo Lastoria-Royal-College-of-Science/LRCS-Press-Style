@@ -1,0 +1,80 @@
+\documentclass[openany]{book}
+\usepackage{lrcsstyle}
+
+\title{\textbf{LRCS Press Style}}
+\author{Author Name}
+\affil{\href{mailto:example@lrcs.ac}{example@lrcs.ac}\\
+\bigskip
+\textit{Institution Line 1}\\
+\textit{Institution Line 2}}
+\date{
+\vspace{1cm}
+\includegraphics[width=0.33\textwidth]{cover_pic.png}
+}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\lipsum[1-4]
+
+\bigskip
+
+\begin{flushright}
+    Author Name\\
+    \today
+\end{flushright}
+
+
+\tableofcontents
+
+
+\chapter{Chapter-Example}
+
+\section{Section-Example}
+
+\lipsum
+
+\section{Section-Example}
+
+\subsection{Subsection-Example}
+
+\lipsum
+
+\subsection{Subsection-Example}
+
+\lipsum
+
+\chapter{Chapter-Example}
+
+\section{Equations}
+
+You can typeset equations as follow:
+\begin{equation}
+    x^2 \frac{d^2y}{dx^2} + x \frac{dy}{dx} + (x^2 - \alpha^2)y = 0. \label{eq:some-eq}
+\end{equation}
+
+You can reference your equation using \Cref{eq:some-eq}.
+
+\section{Tables}
+
+You can insert tables as follow:
+
+\begin{table}[h]
+    \centering
+    \caption{A Fancy Title}
+    \begin{tblr}{width=0.75\linewidth,colspec={|[1pt]c|c|c|[1pt]},colsep=14pt,rowspec={|[1pt]Q|[1pt]Q|Q|Q|[1pt]},rowsep=4pt}
+        Something & Here & Ummm... \\
+        Maybe & There & ? \\
+        This & Time & Here! \\
+        Sorry & Finally & There
+    \end{tblr}
+    \label{tab:some-lable}
+\end{table}
+
+You can reference your table using \Cref{tab:some-lable}.
+
+\end{document}
