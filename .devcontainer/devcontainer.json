@@ -1,0 +1,15 @@
+{
+  "name": "LRCS Press Style",
+  "image": "ghcr.io/ayaka-notes/texlive-full:2026.1",
+  "remoteUser": "tex",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop"
+      ],
+      "settings": {
+        "latex-workshop.latex.recipe.default": "latexmk (lualatex)"
+      }
+    }
+  }
+}
