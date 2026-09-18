@@ -1,0 +1,57 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.fmt
+*.fot
+*.lof
+*.log
+*.lot
+*.out
+*.pdfxref
+*.run.xml
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.toc
+*.xdv
+
+# Common package-generated files
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.loa
+*.loe
+*.nav
+*.snm
+*.vrb
+*.pyg
+_minted-*/
+pythontex-files-*/
+svg-inkscape/
+latex.out/
+
+# Generated example output
+*.pdf
+
+# Editor temporary / backup files
+*~
+*.bak
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
